@@ -4,18 +4,18 @@
 2. [Database EDR](#database-edr)
 3. [Queries and Results](#queries-and-results)
 ## Overview
-This is an assigment that I was assgned to perform using SQL. The database `sakila` that exists locally in MySQL which has data contained inside 16 tables. The data is about rental transactions of films for different movie renting stores. The assignment was assigned by a technical instructor to test some basic to advanced SQL querying skills
-### Key skills applied:
+This assignment was given to assess my SQL skills using the `sakila` database, which is installed locally in MySQL. The `sakila` database contains data across 16 tables, focusing on rental transactions of films for various movie rental stores. The task was assigned by a technical instructor to evaluate both basic and advanced SQL querying skills.
+### Key Skills Applied:
 - Basic `SELECT` statements.
 - Applying **aliases**.
-- Using **ranking** and **partition** operations.
-- Filtering using `WHERE`.
-- **Grouping** using `GROUP BY`.
-- Using **subqueries** in different places as:
-- **Filtering** after `WHERE`.
-- After `FROM` to extract data from a subquery.
-- **Nesting** subqueries.
-- Using multiple `JOINS` to relate tables together and `USING` to identify the `PRIMARY KEY` in each `JOIN` operation.
+- Utilizing **ranking** and **partition** operations.
+- Filtering data using the `WHERE` clause.
+- **Grouping** results with `GROUP BY` to summarize information.
+- Implementing **subqueries** in various contexts, including:
+  - **Filtering** after the `WHERE` clause.
+  - Extracting data from a subquery after the `FROM` clause.
+  - **Nesting** subqueries for complex queries.
+- Employing multiple `JOINS` to relate tables and using `USING` to identify the `PRIMARY KEY` in each `JOIN` operation.
 ## Database EDR
 ```mermaid
 erDiagram
